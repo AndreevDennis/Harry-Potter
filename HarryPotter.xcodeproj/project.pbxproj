@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C285610E2373264B0026C725 /* Scene.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C285610D2373264B0026C725 /* Scene.xcassets */; };
 		C29FAAE62371FED500A2ABE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FAAE52371FED500A2ABE6 /* AppDelegate.swift */; };
 		C29FAAE82371FED500A2ABE6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C29FAAE72371FED500A2ABE6 /* art.scnassets */; };
 		C29FAAEA2371FED500A2ABE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FAAE92371FED500A2ABE6 /* ViewController.swift */; };
 		C29FAAED2371FED500A2ABE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29FAAEB2371FED500A2ABE6 /* Main.storyboard */; };
-		C29FAAEF2371FED600A2ABE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29FAAEE2371FED600A2ABE6 /* Assets.xcassets */; };
 		C29FAAF22371FED600A2ABE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29FAAF02371FED600A2ABE6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C29FAAE22371FED500A2ABE6 /* Cards1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C285610D2373264B0026C725 /* Scene.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Scene.xcassets; sourceTree = "<group>"; };
+		C29FAAE22371FED500A2ABE6 /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29FAAE52371FED500A2ABE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29FAAE72371FED500A2ABE6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C29FAAE92371FED500A2ABE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C29FAAEC2371FED500A2ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C29FAAEE2371FED600A2ABE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29FAAF12371FED600A2ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29FAAF32371FED600A2ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 		C29FAAE32371FED500A2ABE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C29FAAE22371FED500A2ABE6 /* Cards1.app */,
+				C29FAAE22371FED500A2ABE6 /* HarryPotter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 				C29FAAE72371FED500A2ABE6 /* art.scnassets */,
 				C29FAAE92371FED500A2ABE6 /* ViewController.swift */,
 				C29FAAEB2371FED500A2ABE6 /* Main.storyboard */,
-				C29FAAEE2371FED600A2ABE6 /* Assets.xcassets */,
+				C285610D2373264B0026C725 /* Scene.xcassets */,
 				C29FAAF02371FED600A2ABE6 /* LaunchScreen.storyboard */,
 				C29FAAF32371FED600A2ABE6 /* Info.plist */,
 			);
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C29FAAE12371FED500A2ABE6 /* Cards1 */ = {
+		C29FAAE12371FED500A2ABE6 /* HarryPotter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C29FAAF62371FED600A2ABE6 /* Build configuration list for PBXNativeTarget "Cards1" */;
+			buildConfigurationList = C29FAAF62371FED600A2ABE6 /* Build configuration list for PBXNativeTarget "HarryPotter" */;
 			buildPhases = (
 				C29FAADE2371FED500A2ABE6 /* Sources */,
 				C29FAADF2371FED500A2ABE6 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Cards1;
+			name = HarryPotter;
 			productName = Cards1;
-			productReference = C29FAAE22371FED500A2ABE6 /* Cards1.app */;
+			productReference = C29FAAE22371FED500A2ABE6 /* HarryPotter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C29FAADD2371FED500A2ABE6 /* Build configuration list for PBXProject "Cards1" */;
+			buildConfigurationList = C29FAADD2371FED500A2ABE6 /* Build configuration list for PBXProject "HarryPotter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C29FAAE12371FED500A2ABE6 /* Cards1 */,
+				C29FAAE12371FED500A2ABE6 /* HarryPotter */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +127,7 @@
 			files = (
 				C29FAAE82371FED500A2ABE6 /* art.scnassets in Resources */,
 				C29FAAF22371FED600A2ABE6 /* LaunchScreen.storyboard in Resources */,
-				C29FAAEF2371FED600A2ABE6 /* Assets.xcassets in Resources */,
+				C285610E2373264B0026C725 /* Scene.xcassets in Resources */,
 				C29FAAED2371FED500A2ABE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,6 @@
 		C29FAAF72371FED600A2ABE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAD68YH3ZG;
 				INFOPLIST_FILE = Cards1/Info.plist;
@@ -291,7 +290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Cards1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-HarryPotter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +300,6 @@
 		C29FAAF82371FED600A2ABE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAD68YH3ZG;
 				INFOPLIST_FILE = Cards1/Info.plist;
@@ -309,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Cards1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-HarryPotter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C29FAADD2371FED500A2ABE6 /* Build configuration list for PBXProject "Cards1" */ = {
+		C29FAADD2371FED500A2ABE6 /* Build configuration list for PBXProject "HarryPotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C29FAAF42371FED600A2ABE6 /* Debug */,
@@ -328,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C29FAAF62371FED600A2ABE6 /* Build configuration list for PBXNativeTarget "Cards1" */ = {
+		C29FAAF62371FED600A2ABE6 /* Build configuration list for PBXNativeTarget "HarryPotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C29FAAF72371FED600A2ABE6 /* Debug */,
