@@ -19,10 +19,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     var slizNode:SCNNode?
     var kogNode:SCNNode?
     var pufNode:SCNNode?
+    var harryNode:SCNNode?
     var imageNodes = [SCNNode]()
     var isJumping = false
     var lbl = false
     var timer:Timer!
+    var numberTimer:Timer!
    
     
     override func viewDidLoad() {
@@ -33,12 +35,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let slizScene = SCNScene(named: "art.scnassets/tower.scn")
         let kogScene = SCNScene(named: "art.scnassets/third.scn")
         let pufScene = SCNScene(named: "art.scnassets/four.scn")
+        let harryScene = SCNScene(named: "art.scnassets/harry.scn")
     
         
         kogNode = kogScene?.rootNode
         pufNode = pufScene?.rootNode
         grifNode = slizScene?.rootNode
         slizNode = grifScene?.rootNode
+        harryNode = harryScene?.rootNode
         createTimer()
     }
     
@@ -48,9 +52,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @objc func updateTimer(){
         if lbl == true {
             myLabel.isHidden = false
+            createNumberTimer()
         } else {
             myLabel.isHidden = true
         }
+    }
+    func createNumberTimer(){
+        numberTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector:#selector(updateTimer1), userInfo: nil, repeats: false)
+    }
+    
+    @objc func updateTimer1(){
+         myLabel.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -94,6 +106,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 shapeNode = kogNode
             case cardType.valet.rawValue:
                 shapeNode = pufNode
+            case cardType.harry1.rawValue:
+                shapeNode = harryNode
+            case cardType.harry2.rawValue:
+                shapeNode = harryNode
             default:
                 break
             }
@@ -157,6 +173,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         case queen = "queen"
         case krest = "krest"
         case valet = "valet"
+        case harry1 = "harry1"
+        case harry2 = "harry2"
     }
 }
 
